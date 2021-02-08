@@ -6,7 +6,7 @@
     <title>Dateformatting</title>
 </head>
 <body>
-    <input type="text" id="date">
+    <input id="date"> 
     <button onclick="showDate()" >submit</button>
     <p id="ok"></p>
 </body>
@@ -16,8 +16,8 @@
 <script>
     function showDate(){
         var date= new FormattingDate();
-        var x=document.getElementById("date").value;
-        document.getElementById("ok").innerHTML=date.DDMMYYYY_s(x);
+        var x=document.getElementById("date").value;    
+        document.getElementById("ok").innerHTML=date.monthLongDateYear_d(x);
 
     }
     // var date= new FormattingDate();
@@ -27,9 +27,6 @@
     // console.log("YYMMDD              :"+date.YYYYMMDD("Feb 28, 2016 7:32:55 PM"));
     // console.log("DDMMYY              :"+date.DDMMYYYY("Feb 28, 2016 7:32:55 PM"));
     // console.log("DMYY                :"+date.DDMYYYY("Feb 28, 2016 7:32:55 PM"));
-
-    
-
 </script>
 
 
