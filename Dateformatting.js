@@ -1,21 +1,13 @@
 /*  
-    Full month name MMMM
-    Full Year name YYYY
-    only month name 3 string MM like feb jan 
-    only month number M
-    only month number without 0 m
-    Day name 3 string Day
-    full day name DayName
+    Full month name monthLong
+    Full Year name year
+    only month name 3 string monthShort like feb jan 
+    only month number month
+    only month number without m
+    Day name 3 string dayShort
+    full day name dayLong
 */
 class FormattingDate{
-    // dateString_whole="";
-    // date = 0;
-    // month = 0;
-    // year = 0;
-    // daysName="";
-    // hour=0;
-    // minute=0;
-    // second=0;
     daysList = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     daysListShort = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
     monthList = ["","January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
